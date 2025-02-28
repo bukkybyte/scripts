@@ -19,7 +19,7 @@ if exist ".venv\Scripts\activate.bat" (
 )
 
 echo Running development server...
-python manage.py runserver 172.200.1.80:9000
+python manage.py runserver 10.167.47.154:9000
 
 :end
 echo.
